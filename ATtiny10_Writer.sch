@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6764,6 +6764,419 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ZX62-B-5PA_33_">
+<packages>
+<package name="HRS_ZX62-B-5PA(33)">
+<circle x="-1.3" y="4.15" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-3.75" y1="-2.75" x2="-3.75" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="2.85" x2="3.75" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.75" y1="2.85" x2="3.75" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-1.45" x2="3.75" y2="-2.75" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2.75" x2="-3.75" y2="-2.75" width="0.127" layer="51"/>
+<circle x="-1.3" y="4.15" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-3.75" y1="-1.25" x2="-3.75" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-1.45" x2="3.75" y2="-1.45" width="0.127" layer="21"/>
+<wire x1="3.75" y1="-1.45" x2="3.75" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="3.57" x2="3.75" y2="3.57" width="0.127" layer="21"/>
+<wire x1="3.75" y1="1.47" x2="3.75" y2="1.17" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="1.17" x2="-3.75" y2="1.47" width="0.127" layer="21"/>
+<wire x1="-5.15" y1="-3" x2="-5.15" y2="1.2" width="0.05" layer="39"/>
+<wire x1="-5.15" y1="1.2" x2="-4.4" y2="1.2" width="0.05" layer="39"/>
+<wire x1="-4.4" y1="1.2" x2="-4.4" y2="3.6" width="0.05" layer="39"/>
+<wire x1="-4.4" y1="3.6" x2="4.4" y2="3.6" width="0.05" layer="39"/>
+<wire x1="4.4" y1="3.6" x2="4.4" y2="1.2" width="0.05" layer="39"/>
+<wire x1="4.4" y1="1.2" x2="5.15" y2="1.2" width="0.05" layer="39"/>
+<wire x1="5.15" y1="1.2" x2="5.15" y2="-3" width="0.05" layer="39"/>
+<wire x1="5.15" y1="-3" x2="-5.15" y2="-3" width="0.05" layer="39"/>
+<text x="-4.30545" y="4.6559" size="0.81383125" layer="25">&gt;NAME</text>
+<text x="-4.501609375" y="-3.951409375" size="0.813090625" layer="27">&gt;VALUE</text>
+<wire x1="3.75" y1="-1.45" x2="6.2" y2="-1.45" width="0.127" layer="51"/>
+<text x="5.55286875" y="-1.30066875" size="0.609915625" layer="51">PCB EDGE</text>
+<smd name="1" x="-1.3" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="2.675" dx="1.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="SH1" x="-3.1" y="2.55" dx="1.6" dy="2.1" layer="1" rot="R90"/>
+<smd name="SH6" x="3.1" y="2.55" dx="1.6" dy="2.1" layer="1" rot="R90"/>
+<smd name="SH2" x="-4" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="SH5" x="4" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="SH3" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="SH4" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ZX62-B-5PA(33)">
+<wire x1="-5.08" y1="10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08521875" y="10.8061" size="1.78631875" layer="95">&gt;NAME</text>
+<text x="-5.08221875" y="-12.7055" size="1.77981875" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="7.62" length="middle" direction="pas"/>
+<pin name="2" x="-10.16" y="5.08" length="middle" direction="pas"/>
+<pin name="3" x="-10.16" y="2.54" length="middle" direction="pas"/>
+<pin name="5" x="-10.16" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-10.16" y="-7.62" length="middle" direction="pas"/>
+<pin name="4" x="-10.16" y="0" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ZX62-B-5PA(33)" prefix="J">
+<description>ZX Series 5 Position Right Angle PCB Wire Micro B USB Plug</description>
+<gates>
+<gate name="G$1" symbol="ZX62-B-5PA(33)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HRS_ZX62-B-5PA(33)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="SHIELD" pad="SH1 SH2 SH3 SH4 SH5 SH6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" ZX Series 5 Position Right Angle PCB Wire Micro B USB Plug "/>
+<attribute name="MF" value="Hirose"/>
+<attribute name="MP" value="ZX62-B-5PA_33_"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="holes" urn="urn:adsk.eagle:library:237">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8" urn="urn:adsk.eagle:footprint:14239/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+<package name="3,0" urn="urn:adsk.eagle:footprint:14240/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<hole x="0" y="0" drill="3"/>
+</package>
+<package name="3,3" urn="urn:adsk.eagle:footprint:14241/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.3"/>
+</package>
+<package name="3,6" urn="urn:adsk.eagle:footprint:14242/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.6 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.6"/>
+</package>
+<package name="4,1" urn="urn:adsk.eagle:footprint:14243/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.1 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.1"/>
+</package>
+<package name="4,5" urn="urn:adsk.eagle:footprint:14244/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">4,5</text>
+<hole x="0" y="0" drill="4.5"/>
+</package>
+<package name="5,0" urn="urn:adsk.eagle:footprint:14245/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.0 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">5,0</text>
+<hole x="0" y="0" drill="5"/>
+</package>
+<package name="3,2" urn="urn:adsk.eagle:footprint:14246/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.2 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.2"/>
+</package>
+<package name="4,3" urn="urn:adsk.eagle:footprint:14247/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.3 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.3"/>
+</package>
+<package name="5,5" urn="urn:adsk.eagle:footprint:14248/1" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="5.5"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,8" urn="urn:adsk.eagle:package:14271/1" type="box" library_version="1">
+<description>MOUNTING HOLE 2.8 mm with drill center</description>
+<packageinstances>
+<packageinstance name="2,8"/>
+</packageinstances>
+</package3d>
+<package3d name="3,0" urn="urn:adsk.eagle:package:14277/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.0 mm with drill center</description>
+<packageinstances>
+<packageinstance name="3,0"/>
+</packageinstances>
+</package3d>
+<package3d name="3,3" urn="urn:adsk.eagle:package:14278/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.3 mm with drill center</description>
+<packageinstances>
+<packageinstance name="3,3"/>
+</packageinstances>
+</package3d>
+<package3d name="3,6" urn="urn:adsk.eagle:package:14272/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.6 mm with drill center</description>
+<packageinstances>
+<packageinstance name="3,6"/>
+</packageinstances>
+</package3d>
+<package3d name="4,1" urn="urn:adsk.eagle:package:14273/1" type="box" library_version="1">
+<description>MOUNTING HOLE 4.1 mm with drill center</description>
+<packageinstances>
+<packageinstance name="4,1"/>
+</packageinstances>
+</package3d>
+<package3d name="4,5" urn="urn:adsk.eagle:package:14274/1" type="box" library_version="1">
+<description>MOUNTING HOLE 4.5 mm with drill center</description>
+<packageinstances>
+<packageinstance name="4,5"/>
+</packageinstances>
+</package3d>
+<package3d name="5,0" urn="urn:adsk.eagle:package:14276/1" type="box" library_version="1">
+<description>MOUNTING HOLE 5.0 mm with drill center</description>
+<packageinstances>
+<packageinstance name="5,0"/>
+</packageinstances>
+</package3d>
+<package3d name="3,2" urn="urn:adsk.eagle:package:14275/1" type="box" library_version="1">
+<description>MOUNTING HOLE 3.2 mm with drill center</description>
+<packageinstances>
+<packageinstance name="3,2"/>
+</packageinstances>
+</package3d>
+<package3d name="4,3" urn="urn:adsk.eagle:package:14289/1" type="box" library_version="1">
+<description>MOUNTING HOLE 4.3 mm with drill center</description>
+<packageinstances>
+<packageinstance name="4,3"/>
+</packageinstances>
+</package3d>
+<package3d name="5,5" urn="urn:adsk.eagle:package:14279/1" type="box" library_version="1">
+<description>MOUNTING HOLE 5.5 mm with drill center</description>
+<packageinstances>
+<packageinstance name="5,5"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="MOUNT-HOLE" urn="urn:adsk.eagle:symbol:14238/1" library_version="1">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-HOLE" urn="urn:adsk.eagle:component:14301/1" prefix="H" library_version="1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14271/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="3,0">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14277/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3" package="3,3">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14278/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.6" package="3,6">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14272/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.1" package="4,1">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14273/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.5" package="4,5">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14274/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0" package="5,0">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14276/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.2" package="3,2">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14275/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.3" package="4,3">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14289/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.5" package="5,5">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14279/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6788,6 +7201,17 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
+<part name="J2" library="ZX62-B-5PA_33_" deviceset="ZX62-B-5PA(33)" device=""/>
+<part name="H1" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H2" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H3" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="H4" library="holes" library_urn="urn:adsk.eagle:library:237" deviceset="MOUNT-HOLE" device="3.2" package3d_urn="urn:adsk.eagle:package:14275/1"/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3"/>
+<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6835,6 +7259,31 @@ Source: www.kingbright.com</description>
 <instance part="LED1" gate="G$1" x="106.68" y="20.32" smashed="yes">
 <attribute name="NAME" x="110.236" y="15.748" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="112.395" y="15.748" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J2" gate="G$1" x="139.7" y="12.7"/>
+<instance part="H1" gate="G$1" x="116.84" y="63.5"/>
+<instance part="H2" gate="G$1" x="142.24" y="63.5"/>
+<instance part="H3" gate="G$1" x="116.84" y="55.88"/>
+<instance part="H4" gate="G$1" x="142.24" y="55.88"/>
+<instance part="P+5" gate="VCC" x="129.54" y="27.94" smashed="yes">
+<attribute name="VALUE" x="127" y="25.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="129.54" y="-2.54" smashed="yes">
+<attribute name="VALUE" x="127.635" y="-5.715" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY7" gate="GND" x="116.84" y="2.54" smashed="yes">
+<attribute name="VALUE" x="114.935" y="-0.635" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="116.84" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="6.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="6.35" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED2" gate="G$1" x="116.84" y="20.32" smashed="yes">
+<attribute name="NAME" x="120.396" y="15.748" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.555" y="15.748" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+6" gate="VCC" x="116.84" y="27.94" smashed="yes">
+<attribute name="VALUE" x="114.3" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -6933,6 +7382,18 @@ Source: www.kingbright.com</description>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<pinref part="J2" gate="G$1" pin="SHIELD"/>
+<wire x1="129.54" y1="10.16" x2="129.54" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="5.08" x2="129.54" y2="0" width="0.1524" layer="91"/>
+<junction x="129.54" y="5.08"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -6955,11 +7416,27 @@ Source: www.kingbright.com</description>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
 <wire x1="91.44" y1="17.78" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="25.4" x2="129.54" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="VCC" pin="VCC"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="116.84" y1="25.4" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 </segment>
 </net>
 </nets>
